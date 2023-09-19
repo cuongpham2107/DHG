@@ -1,0 +1,39 @@
+.bgcolor-2 {
+    background-color: #fe0000  !important;
+}
+
+
+/*Subiz*/
+
+body #wpwidget .widget-layout {
+    right: 10px !important;
+    bottom: 10px !important;
+}
+
+body #wpwidget .chat-button--img-container {
+    width: 45px !important;
+    height: 45px !important;
+}
+
+body #wpwidget img.chat-button--img {
+    width: 45px !important;
+    height: 45px !important;
+}
+
+/*Subiz*/
+
+/*Zalo*/
+
+.zalo-chat-widget {
+    right: 35px !important;
+    bottom: 90px !important;
+}
+
+@media (max-width : 768px) {
+    .zalo-chat-widget {
+        right: 10px !important;
+        bottom: 140px !important;
+    }
+}
+
+/*Zalo*/

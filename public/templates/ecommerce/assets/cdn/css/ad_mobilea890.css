@@ -1,0 +1,20 @@
+﻿@media (max-width : 768px) {
+    body{
+  
+    }
+
+    /*Default Row Col*/
+    .row-0 {
+        display: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .col-0 {
+        display: none !important;
+        width: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    /*Default Row Col*/
+}

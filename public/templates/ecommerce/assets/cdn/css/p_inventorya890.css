@@ -1,0 +1,91 @@
+﻿.page-store h1 {
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.page-store select {
+    margin-bottom: 10px;
+}
+
+.page-store-status {
+    margin: 5px 0 15px;
+}
+
+.p-storelist-head {
+    padding-right: 10px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+    .p-storelist-head .accordion-collapse {
+        margin-bottom: 10px;
+    }
+
+    .p-storelist-head .cardHeaderStore {
+        padding: 6px 10px;
+    }
+
+.cardHeaderStore h5 {
+    margin-bottom: 0;
+}
+
+    .cardHeaderStore h5 a {
+        color: #333;
+        font-weight: bold;
+    }
+
+.p-storelist-head .card-body {
+    padding: 6px;
+}
+
+.p-storelist-head ul {
+    padding: 6px;
+    list-style: decimal inside;
+}
+
+    .p-storelist-head ul li {
+        padding-left: 4px;
+        float: left;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+        .p-storelist-head ul li .store-item-click {
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+.p-storelist-view h2 {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+    .p-storelist-view h2 span {
+        font-weight: normal;
+    }
+
+.p-storelist-view iframe {
+    margin-left: 10px;
+    width: 100% !important;
+    height: 500px !important;
+}
+
+@media (max-width : 768px) {
+    .page-store {
+        padding: 0 10px;
+    }
+
+    .p-storelist-head {
+        max-height: 300px !important;
+        margin-bottom: 10px;
+    }
+
+    .p-storelist-view iframe {
+        width: 100% !important;
+        height: 500px !important;
+    }
+}

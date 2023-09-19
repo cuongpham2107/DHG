@@ -1,0 +1,10 @@
+﻿/*Default Row Col*/
+.container-df {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/*Default Row Col*/
+
+@media (min-width : 1024px) {
+
+}
